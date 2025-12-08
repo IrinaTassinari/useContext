@@ -1,11 +1,14 @@
-import { useState } from 'react'
 import './App.css'
+import { useState } from 'react'
+
 import ThemeContext from './context/ThemeContext'
-import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher.jsx'
 import CounterProvider from './providers/counterProvider.jsx'
+
+
 import CounterDisplay from './components/CounterDisplay/CounterDisplay.jsx'
-import IncrementBtn from './components/IncrementBtn/IncrementBtn.jsx'
 import DecrementBtn from './components/DecrementBtn/DecrementBtn.jsx'
+import IncrementBtn from './components/IncrementBtn/IncrementBtn.jsx'
+import ThemeSwitcher from './components/ThemeSwitcher/ThemeSwitcher.jsx'
 
 function App() {
   // сост-е для хранения темы
